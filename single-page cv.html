@@ -1,47 +1,102 @@
-<html>
+<!doctype html>
+<html lang="en">
     <head>
-        <meta charset = "utf-8">
-        <title>Single Page CV</title>
-        <link rel="icon" type="image/x-icon" href="C:\Dev\Projects\Frontend\Single-Page CV\images/favicon.ico">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Zefasil Mulu's CV - skills, education, and experience.">
+        <meta property="og:title" content="Zefasil Mulu - CV">
+        <meta property="og:description" content="Skills, education, and experience.">
+        <meta property="og:type" content="profile">
+        <title>Zefasil Mulu - CV</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Zefasil MULU</h1>
-        <p style="color:lab(64.09% -64.32 64.32 / 0.982);">Junior Frontend Developer</p>
-        <P>123 Your Street <br/>
-           Your City, ST 12345<br/>
-           zefasilmulu@gmail.com <br/>
-           +251980278337
-        </P>
-        <p style="color:lab(56.8% -57.85 58.02 / 0.982);">
-            Skills
-        </p>
-        <p>
-            HTML, CSS, Javascript, Accessibility, Figma to Design, Responsive Web Design, Technical Writing,Presemtation
-        </p>
-        <p style="color:lab(56.8% -57.85 58.02 / 0.982);">
-            Education
-        </p>
-        <p>
-            <div style="color:rgb(0, 140, 255);">School Name, Location - Degree</div>
-            <div>Month 20xx to Month 20xx</div>
-            <div>List of exciting things you did at university</div>
-       </p>
-        <p>
-            <div style="color:lab(56.8% -57.85 58.02 / 0.982);">Exprience</div>
-            <div style="color:rgb(0, 140, 255);">Company Name, Location, Job-title</div>
-            <div>Month 20xx to Month 20xx</div>
-            <ul>
-                <li>List of Achievements</li>
-                <li>List of Achievements</li>
-                <li>List of Achievements</li>
-            </ul>
-            <div>Skills: List of skills used or gained at this company</div>
-        </p>
-        <p>
-            <div style="color:lab(56.8% -57.85 58.02 / 0.982);">Across the internet</div>
-            <div>Add you linkedin, Github profile links</div>
-        </p>
+        <div class="cv-page">
+            <header class="cv-header">
+                <h1>Zefasil Mulu</h1>
+                <p class="subtitle">Software Engineering Student | Aspiring Backend Developer</p>
+                <address>
+                    Bahir Dar, Ethiopia<br>
+                    <a href="mailto:zefasilmulu@gmail.com">zefasilmulu@gmail.com</a><br>
+                    +251 980 278 337
+                </address>
+            </header>
 
+            <main>
+                <section>
+                    <h2>Skills</h2>
+                    <ul class="skills-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>Java</li>
+                        <li>Git &amp; GitHub</li>
+                        <li>MySQL</li>
+                        <li>Responsive Web Design</li>
+                    </ul>
+                </section>
 
+                <section>
+                    <h2>Education</h2>
+                    <article>
+                        <h3>Bahir Dar University - BSc in Software Engineering</h3>
+                        <p>2022 - Present</p>
+                        <p>
+                            Currently studying Software Engineering with a focus on
+                            programming, web development, software engineering principles,
+                            databases, and application development.
+                        </p>
+                    </article>
+                </section>
+
+                <section>
+                    <h2>Experience</h2>
+                    <article>
+                        <h3>Nextgen Technologies P.L.C. - Software Engineering Intern</h3>
+                        <p>Internship</p>
+                        <ul>
+                            <li>Contributed to the development of the EventAxis web application.</li>
+                            <li>Implemented and improved application features related to events, tickets, and participants.</li>
+                            <li>Worked on backend logic and user-facing functionality while testing features and fixing issues.</li>
+                        </ul>
+                        <p>
+                            Skills: Python, Django, HTML, CSS, JavaScript, Git, GitHub,
+                            backend development, debugging, and testing.
+                        </p>
+                    </article>
+                </section>
+
+                <section>
+                    <h2>Projects</h2>
+                    <article>
+                        <h3>EventAxis</h3>
+                        <p>
+                            A web-based event management platform developed during my internship,
+                            including event, ticket, and participant management functionality.
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Food Delivery Mobile Application</h3>
+                        <p>
+                            A Flutter-based mobile application developed as an academic project,
+                            using Dart, SQLite, and Provider for application state management.
+                        </p>
+                    </article>
+                </section>
+            </main>
+
+            <footer>
+                <h2>Across the Internet</h2>
+                <a href="https://www.linkedin.com/in/zefasilmulu/"
+                   target="_blank"
+                   rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/zefasilmulu"
+                   target="_blank"
+                   rel="noopener noreferrer">GitHub</a>
+            </footer>
+        </div>
     </body>
 </html>

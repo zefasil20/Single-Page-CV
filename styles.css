@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px 16px;
+    background: #f4f4f4;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.cv-page {
+    width: min(100%, 760px);
+    min-height: 980px;
+    margin: 0 auto;
+    padding: 42px 56px;
+    border: 2px solid #555;
+    background: #fff;
+}
+
+.cv-header {
+    padding-top: 16px;
+    border-top: 2px solid #333;
+}
+
+h1 {
+    margin: 0 0 4px;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.subtitle {
+    margin: 0 0 12px;
+    color: #398653;
+}
+
+address {
+    font-size: 14px;
+    font-style: normal;
+}
+
+a {
+    color: inherit;
+}
+
+section,
+footer {
+    margin-top: 24px;
+}
+
+h2 {
+    margin: 0 0 7px;
+    color: #398653;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h3 {
+    margin: 0;
+    color: #397da7;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+article + article {
+    margin-top: 18px;
+}
+
+p {
+    margin: 3px 0 7px;
+}
+
+ul {
+    margin: 5px 0 8px;
+    padding-left: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 4px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills-list li:not(:last-child)::after {
+    content: ",";
+}
+
+footer h2 {
+    margin-bottom: 7px;
+}
+
+footer a + a {
+    margin-left: 12px;
+}
+
+@media (max-width: 520px) {
+    body {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .cv-page {
+        min-height: 0;
+        padding: 28px 24px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
